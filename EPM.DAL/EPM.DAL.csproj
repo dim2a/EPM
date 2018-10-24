@@ -58,10 +58,12 @@
     <Compile Include="Entities\Role.cs" />
     <Compile Include="Entities\State.cs" />
     <Compile Include="Entities\User.cs" />
-    <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="Exceptions\ExceptionHandler.cs" />
+    <Compile Include="Interfaces\IgenericRepository.cs" />
     <Compile Include="Interfaces\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\ProjectRepository.cs" />
+    <Compile Include="Repositories\EFUnitOfWork.cs" />
+    <Compile Include="Repositories\GenericRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
