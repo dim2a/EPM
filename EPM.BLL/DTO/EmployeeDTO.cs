@@ -5,10 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EPM.DAL.Interfaces
+namespace EPM.BLL.DTO
 {
-    public interface IUnitOfWork : IDisposable
+    public class EmployeeDTO
     {
-        void Save();
+        public int Id { get; set; }        
+        public User User { get; set; }
     }
 }
