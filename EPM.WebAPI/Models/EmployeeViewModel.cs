@@ -1,13 +1,11 @@
-﻿using EPM.DAL.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Web;
 
-namespace EPM.BLL.DTO
+namespace EPM.WebAPI.Models
 {
-    public class EmployeeDTO
+    public class EmployeeViewModel
     {
         public int Id { get; set; }
         public User User { get; set; }

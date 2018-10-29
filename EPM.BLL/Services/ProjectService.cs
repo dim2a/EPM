@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace EPM.BLL.Services
 {
-    class ProjectServise : IProjectService
+    public class ProjectService : IProjectService
     {
         IUnitOfWork DataBase { get; set; }
 
-        public ProjectServise(IUnitOfWork uow)
+        public ProjectService(IUnitOfWork uow)
         {
             DataBase = uow;
         }
@@ -40,7 +40,7 @@ namespace EPM.BLL.Services
         public void CloseProjectById(int id)
         {
             throw new NotImplementedException();
-        }       
+        }
 
         public void DeleteProjectById(int id)
         {
@@ -60,6 +60,6 @@ namespace EPM.BLL.Services
         public ProjectDTO GetProjectById(int id)
         {
             throw new NotImplementedException();
-        }        
+        }
     }
 }
