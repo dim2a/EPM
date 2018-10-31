@@ -5,9 +5,9 @@ using System.Web;
 
 namespace EPM.WebAPI.Models
 {
-    public class EmployeeViewModel
+    public class RoleViewModel
     {
-        public int Id { get; set; }
-        public UserViewModel User { get; set; }
+        public int RoleId { get; set; }
+        public string RoleName { get; set; }
     }
 }
